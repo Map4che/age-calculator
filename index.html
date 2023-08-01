@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="./assets/styles/reset.css" />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="contenido">
+        <section class="primera">
+          <div class="container-entrada">
+            <label for="" class="info-entrada">DAY</label
+            ><input
+              type="text"
+              class="entrada-datos day"
+              placeholder="DD"
+              required
+            />
+          </div>
+          <div class="container-entrada">
+            <label for="" class="info-entrada">MONTH</label
+            ><input
+              type="text"
+              class="entrada-datos month"
+              placeholder="MM"
+              required
+            />
+          </div>
+          <div class="container-entrada">
+            <label for="" class="info-entrada">YEAR</label
+            ><input
+              type="text"
+              class="entrada-datos year"
+              placeholder="YYYY"
+              required
+            />
+          </div>
+        </section>
+        <section class="segunda">
+          <button type="submit" class="btn-calcular">
+            <img
+              src="./assets/images/icon-arrow.svg"
+              alt=""
+              class="btn-calcular__image"
+            />
+          </button>
+        </section>
+        <section class="tercera">
+          <div class="salida-container salida-container1">
+            <p class="salida salida1">--</p>
+            <p class="texto-salida1">years</p>
+          </div>
+          <div class="salida-container salida-container2">
+            <p class="salida salida2">--</p>
+            <p class="texto-salida2">months</p>
+          </div>
+          <div class="salida-container salida-container3">
+            <p class="salida salida3">--</p>
+            <p class="texto-salida3">days</p>
+          </div>
+        </section>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Juan Pablo Londoño G.</a>.
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
