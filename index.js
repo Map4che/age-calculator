@@ -29,6 +29,12 @@ const calcular = () => {
     } else {
       mes = mesActual - month.value;
     }
+
+    if (mes == 12) {
+      mes = 0;
+      anio += 1;
+    }
+
     if (diaActual <= day.value) {
       dia = diaActual + 30 - day.value;
     } else {
